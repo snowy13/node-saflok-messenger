@@ -8,8 +8,6 @@
     "start": "node api.js"
   },
   "author": "Jim Anastassiou",
-  "license": "",
-  "dependencies": {
-    "flow-tcp-client": "0.0.0"
+  "license": "",  
   }
 }
