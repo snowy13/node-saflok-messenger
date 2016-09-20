@@ -1,13 +1,13 @@
 
 require('./message');
 var net = require('net');
-var HOST = '127.0.0.1';
-var PORT = 6969;
+var HOST = '192.168.8.69';
+var PORT = 8264;
 
 var saflokMessage = message;
 
 saflokMessage.calculateLrc();
-saflokMessage.setExpiration("303930393136","32303030");
+saflokMessage.setExpiration("303931353136","32303030");
 
 
 var messageBuffer = new Buffer(saflokMessage.buildRequestMsg(), 'hex');
