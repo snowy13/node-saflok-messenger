@@ -7,7 +7,7 @@ var PORT = 8264;
 var saflokMessage = message;
 
 saflokMessage.calculateLrc();
-saflokMessage.setExpiration("303931353136","32303030");
+saflokMessage.setExpiration("313031353136","32303030");
 
 
 var messageBuffer = new Buffer(saflokMessage.buildRequestMsg(), 'hex');
